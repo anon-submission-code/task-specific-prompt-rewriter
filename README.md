@@ -1,6 +1,6 @@
-# Enhancing LLM Performance with a Task‑Specific Prompt Re‑writer
+# TARP: Enhancing LLM Performance with a Task‑Aware Prompt Re‑writer
 
-Large Language Models (LLMs) can achieve much stronger results when they receive well‑formed prompts, yet writing those prompts is a barrier for many users. This repository implements a **Prompt Rewriter** that automatically reformulates user queries and feeds the rewrites to a task LLM. The rewriter is trained with **Group Relative Policy Optimization (GRPO)** and rewarded with both classic text‑overlap metrics and **LLM‑as‑a‑Judge** scores. The work includes benchmarking on question answering, summarization, and arithmetic reasoning tasks.
+Large Language Models (LLMs) can achieve much stronger results when they receive well‑formed prompts, yet writing those prompts is a barrier for many users. This repository implements a **Task-Aware Prompt Rewriter** **(TARP)** that automatically reformulates user queries and feeds the rewrites to a task LLM. The rewriter is trained with **Group Relative Policy Optimization (GRPO)** and rewarded with both classic text‑overlap metrics and **LLM‑as‑a‑Judge** scores. The work includes benchmarking on question answering, summarization, and arithmetic reasoning tasks.
 
 ---
 
